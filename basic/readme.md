@@ -7,6 +7,15 @@ Q.2) What will be the output of undefined==null & undefined===null ? Why ?
 Q.3) Can you explicitly assign "undefined" to a variable ? (let i = undefined)
 
 
+Section2: Function and Block Scope
+
+Q.1) What is hoisting in javascript ?
+
+Q.2) How does block scope work ?
+
+Q.3) What is the scope of a variable ?
+
+
 section3: ASI
 
 Q.1) Should you terminate all lines by a �;� ?
