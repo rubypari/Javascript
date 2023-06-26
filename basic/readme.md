@@ -55,3 +55,31 @@ Q.1) How will you put a validation for positive or negative Infinity?
 Q.2) What will be the output of this code?
 Code:
 console.log(1/0);
+
+// Section6: NAN(Not a Number)
+Q.1) What will be the output of the below statement?
+console.log(NaN==NaN);
+
+Q.2) What is the difference between isNaN() and isFinite() method?
+
+// Section7: Arrow Function
+
+Q.1) Explain the syntactical features of arrow function.
+
+Q.2) Why �this� does not work in arrow function?
+
+Q.3) Explain output of following code with reason.
+const obj={
+     method:()=>{
+                      console.log(this);
+      }
+}
+
+Q.4) How can you handle arguments object like functionality in arrow function?
+
+Q.5) Can you write IIFE with arrow function syntax?
+
+
+// section8:Closure
+
+
