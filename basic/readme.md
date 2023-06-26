@@ -1,3 +1,5 @@
+======== Difference between null and undefined======
+
 Q.1) What is "undefined" in JavaScript ?
 
 Q.2) What will be the output of undefined==null & undefined===null ? Why ?
