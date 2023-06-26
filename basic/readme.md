@@ -1,4 +1,4 @@
-======== Difference between null and undefined======
+Section1 : Difference between null and undefined
 
 Q.1) What is "undefined" in JavaScript ?
 
