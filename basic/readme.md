@@ -106,3 +106,15 @@ Q.2) How do you create an iterator ?
 Q.3) Explain a practical use of an iterator ?
 
 
+// Section11: Genarator
+
+Q.1) What are generator functions? Explain the syntax.
+
+Q.2) Which is the right syntax function* () { } or function *(){} ?
+
+Q.3) Explain all methods of generator objects.
+
+Q.4) Explain the use of �yield*�
+
+Q.5) Can you prevent return() from terminating the generator ?
+
