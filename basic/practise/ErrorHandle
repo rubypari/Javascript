@@ -1,0 +1,18 @@
+let a=10;
+console.log('value of A${a}');
+letb=20;
+console.log('value of B${b}');
+
+// 2) code
+
+try{
+let a=10;
+console.log('value of A${a}');
+letb=20;
+console.log('value of B${b}');
+}catch(err){
+  console.log("Error found");
+}
+
+// 3) code
+
