@@ -1,0 +1,153 @@
+const genFunction=function*(){
+console.log("Hello");
+yield;
+console.log("WOrld");
+yield
+console.log("Galaxy");
+}
+const gObj=genFunction();
+console.log(gObj);
+gObj.next();
+
+
+// 2) code
+
+const genFunction=function*(){
+console.log("Hello");
+yield;
+console.log("WOrld");
+yield
+console.log("Galaxy");
+}
+const gObj=genFunction();
+for (let i of gObj){
+  console.log(i);
+}
+
+// 3) code
+
+const genFunction=function*(){
+console.log("Hello");
+yield "y1";
+console.log("WOrld");
+yield "y2";
+
+console.log("Galaxy");
+}
+const gObj=genFunction();
+for (let i of gObj){
+  console.log(i);
+}
+
+// 4) code
+
+const genFunction=function*(){
+console.log("Hello");
+yield "y1";
+console.log("WOrld");
+yield "y2";
+
+console.log("Galaxy");
+}
+const gObj=[...genFunction()];
+console.log(gObj);
+
+
+// 5) code
+
+const obj={
+    start:10,
+    end:20,
+  *[Symbol.iterator]  (){
+           for(let cnt=this.start; cnt<=this.end; cnt++){
+             yield cnt;
+           }
+  }  
+  
+}
+for (let i of obj){
+    console.log(i);
+  }
+
+
+// 6) code
+
+function* gen(){
+ console.log("Hi");
+}
+function* gen1(){
+  const g = gen();
+  g.next();
+}
+const g1=gen1();
+g1.next();
+
+
+// 7) code
+
+function* gen(){
+ console.log("Hi");
+}
+function* gen1(){
+  yield* gen();
+}
+const g1=gen1();
+g1.next();
+
+
+// 8) code
+
+function* gen(){
+   try{
+     yield "One";
+     yield "Two";
+   }finally{
+      console.log("Finally");
+   }
+}
+ const gObj= gen();
+ console.log(gObj.next());
+  console.log(gObj.next());
+   console.log(gObj.next());
+
+// 9) code
+
+function* gen(){
+   try{
+     yield "One";
+     yield "Two";
+   }finally{
+      yield "Finally"
+   }
+}
+ const gObj= gen();
+ console.log(gObj.next());
+  console.log(gObj.next());
+   console.log(gObj.next());
+
+
+// 10) code
+
+function* gen(){
+   try{
+     yield "One";
+     yield "Two";
+   }catch(err){
+     console.log("Error:"+err);
+   }
+}
+ const gObj= gen();
+ console.log(gObj.next());
+  console.log(gObj.throw());
+
+// 11) code
+function* gen(){
+  let a=yield "first";
+  console.log(a);
+  a=yield "second";
+  console.log(a);
+}
+const gObj= gen();
+gObj.next("A");
+gObj.next("B");
+gObj.next("C");
