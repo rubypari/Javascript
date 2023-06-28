@@ -97,3 +97,12 @@ What will this statement do? Explain in detail.
 Q.3) Explain practical usage of function currying.
 
 
+// Section10: iterator
+
+Q.1) What is the purpose of the iterator ?
+
+Q.2) How do you create an iterator ?
+
+Q.3) Explain a practical use of an iterator ?
+
+
