@@ -1,0 +1,74 @@
+let arr=[1,8,3];
+let arr1=["name",4,23];
+console.log(arr);
+console.log(arr1);
+
+// 2) code
+
+let arr=[1,8,3];
+let arr1=["name",true,23];
+console.log(arr);
+console.log(arr1);
+console.log(arr1.length);
+
+// 3) code
+
+let arr=[1,8,3];
+let arr1=["name",true,23];
+console.log(arr);
+console.log(arr1[0]);
+console.log(arr1.length);
+
+// 4) code
+
+let arr=[1,8,3];
+let arr1=["name",true,23];
+console.log(arr);
+console.log(arr1[0]);
+console.log(arr1.length);
+console.log(arr[arr.length-1]);
+
+// 5) code
+
+let arr=[
+       {pCode:1,pName:'Apple'},
+       {pCode:2,pName:'Orange'},
+       {pCode:3,pName:'Banana'}
+];
+console.log(arr);
+
+// 6) code
+
+let arr=[
+       {pCode:1,pName:'Apple'},
+       {pCode:2,pName:'Orange'},
+       {pCode:3,pName:'Banana'}
+];
+console.log(arr[0].pName);
+
+// 7) code
+
+let arr=["name","age","salary","address"];
+for(let i=0; i<arr.length; i++){
+       console.log(arr[i]);
+}
+
+//  8) code
+
+let arr=["name","age","salary","address"];
+for(let i in arr){
+     console.log(i);
+}
+
+//  9) code
+
+let arr=["name","age","salary","address"];
+for(let i of arr){
+     console.log(i);
+}
+
+// 10) code
+let arr=["name","age","salary","address"];
+arr.forEach((elem,index)=>{
+      console.log(elem,index);
+})
