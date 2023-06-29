@@ -1,0 +1,67 @@
+let arr=["name","age","salary","address"];
+console.log(arr.push("contact"));
+console.log(arr);
+
+// 2) code
+
+let arr=["name","age","salary","address"];
+console.log(arr.unshift("contact"));
+console.log(arr);
+
+
+//  3) code
+
+let arr=["name","age","salary","address"];
+console.log(arr.pop());
+console.log(arr);
+
+//  4) code
+
+let arr=["name","age","salary","address"];
+console.log(arr.shift());
+console.log(arr);
+
+//  5) code
+
+let arr=["name","age","salary","address"];
+console.log(arr.splice(2));
+console.log(arr);
+
+//  6) code
+
+let arr=["name","age","salary","address"];
+console.log(arr.splice(0));
+console.log(arr);
+
+// 7) code
+
+let arr=["name","age","salary","address"];
+console.log(arr.splice(2,1," new"));
+console.log(arr);
+
+
+// 8) code
+
+let arr=["name","age","salary","address"];
+console.log(arr.splice(2,1," new","Another"));
+console.log(arr);
+
+// 9)  code
+
+let arr=["name","age","salary","address"];
+console.log(arr.splice(2,0," new","Another"));
+console.log(arr);
+
+//  10) code
+
+
+let arr=["name","age","salary","address"];
+console.log(arr.splice(arr.length,0,"New"));
+console.log(arr);
+
+//  11) code
+
+
+let arr=["name","age","salary","address"];
+console.log(arr.splice(0,0,"New"));
+console.log(arr);
