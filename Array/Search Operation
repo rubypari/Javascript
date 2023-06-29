@@ -1,0 +1,45 @@
+let arr=["name","age","salary","address"];
+console.log(arr.indexOf("name"));
+console.log(arr.indexOf("name",3))
+
+// 2) code
+
+let arr=["name","age","salary","address","name","age"];
+console.log(arr.lastIndexOf("name"));
+console.log(arr.lastIndexOf("name",3));
+
+//  3)  code
+
+let arr=["name","age","salary","address","name","age"];
+console.log(arr.includes("name",2));
+
+
+//  4) code
+
+let arr=[200,300,234,890,450];
+let rVal=arr.find((elem)=>{
+    return elem>300;
+})
+console.log(rVal);
+
+
+// 5) code
+
+let arr=[200,300,234,890,450];
+let rVal=arr.findIndex((elem)=>{
+    return elem>300;
+})
+console.log(rVal);
+
+
+//6) code
+
+let arr=[200,300,234,890,450];
+let rVal=arr.filter((elem)=>{
+    return elem>300;
+})
+console.log(rVal);
+
+
+//  7) code
+
