@@ -1,0 +1,24 @@
+let arr=[2,4,6,8];
+let result=arr.reduce((accumulator,current)=>{
+    return accumulator+current;
+})
+console.log(result);
+
+/// 2) code
+
+let arr=[2,4,6,8];
+let result=arr.reduce((accumulator,current)=>{
+    return accumulator+current;
+},10)
+console.log(result);
+
+///  3) code
+
+let arr=[2,4,6,8];
+let result=arr.reduce((accumulator,current)=>{
+    return accumulator*current;
+})
+console.log(result);
+
+///  4) code
+
