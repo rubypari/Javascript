@@ -1,0 +1,60 @@
+let arr=[200,300,234,890,450];
+arr.map((elem,index)=>{
+   console.log(elem,index);
+})
+
+
+///  2) code
+
+let arr=[200,300,234,890,450];
+let nArr=arr.map(function(elem,index){
+      return elem*index;
+})
+ console.log(nArr);
+
+
+///  3) code
+
+let arr=[200,300,234,890,450];
+let nArr=arr.map(elem=>{
+      return elem*elem;
+})
+ console.log(nArr);
+
+///  4) code
+
+let arr=[200,300,234,890,450];
+let nArr=arr.map(elem=>elem*elem)
+ console.log(nArr);
+
+////   5)  code
+
+let arr=["Apple","Orange","Banana","Kiwi"];
+let lArr=arr.map(elem=>elem.length);
+console.log(lArr);
+
+///  6) code
+
+let arr=[4,9,25,16];
+let sArr=arr.map((elem)=>{
+     return Math.sqrt(elem);
+})
+console.log(sArr);
+
+/// 7)  code
+
+let arr=[4,9,25,16];
+let sArr=arr.map(elem=>Math.sqrt(elem));
+    
+console.log(sArr);
+
+/// 8) code
+
+let products=[
+      {pCode:1,pName:"Banana"},
+      {pCode:2,pName:"Apple"},
+      {pCode:3,pName:"Orange"},
+      {pCode:4,pName:"Kiwi"},
+]
+let pName=products.map(elem=>elem.pName);
+console.log(pName);
