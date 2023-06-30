@@ -22,3 +22,39 @@ console.log(result);
 
 ///  4) code
 
+let arr=[2,4,6,8];
+let result=arr.reduce((accumulator,current,index,array)=>{
+     accumulator+=current;
+     if(index==array.length-1){
+        return accumulator/array.length;
+     }
+    return accumulator;
+})
+console.log(result);
+
+///  5) code
+
+let arr=[
+          [2,4,6,8],
+          [4,5,3],
+          [5,8,9]
+    ];
+let fArr=arr.reduce((accumulator,element)=>{
+   return accumulator.concat(element);
+},[])
+  console.log(fArr);
+
+///  6) code
+
+let employees=[
+           {eNo:1,salary:3000},
+           {eNo:2,salary:4000},
+           {eNo:3,salary:20000},
+           {eNo:4,salary:1000},     
+];
+let totalSalary= employees.reduce((accumulator,current)=>{
+       return accumulator+current.salary;
+},0);
+   console.log(totalSalary);
+
+
