@@ -1,0 +1,16 @@
+let arr=[2,8,9,29];
+let [a,b,c,d]=arr;
+console.log(arr);
+
+///  2) code
+
+function test(){
+   return [6,98,78,34];
+}
+let [a,b,c,d]= test();
+console.log(a,b,c,d);
+
+/// 3) code
+let arr=[2,45,76,98];
+let [a,,c,d]=arr;
+console.log(a,c,d);
