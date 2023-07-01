@@ -1,0 +1,17 @@
+let product=['apple','banana','orange','kiwi','mango'];
+let sArr=product.sort();
+console.log(sArr);
+console.log(product);
+
+
+///  2) code
+
+let product=['apple','orange','kiwi','banana','mango'];
+product.sort(function(a,b){
+     console.log(a,b);
+});
+console.log(product);
+
+
+///  3) code
+
