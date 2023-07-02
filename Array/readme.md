@@ -87,4 +87,15 @@ Q.3) What will be the output of this code ?
 Q.4) How will you set a default value while destructuring an array ?
 
 
+//// Section: 7 Sorting
+
+Q.1) What will be the output in case an array has �undefined� while sorting the values ?
+
+Q.2) How will sort an object literal ? 
+
+Q.3) How will you sort a numeric array ? 
+
+Q.4) Sort all values of array in descending order.
+
+
 
