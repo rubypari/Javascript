@@ -15,3 +15,58 @@ console.log(product);
 
 ///  3) code
 
+let product=["apple","banana","orange",undefined,"kiwi"];
+product.sort(function(a,b){
+     console.log(a,b);
+});
+console.log(product);
+
+///  4) code
+
+let product=["apple","banana","orange","mango","kiwi"];
+product.sort(function(a,b){
+     if(a<b){
+     return 1;
+     } 
+     if(a>b){
+     return -1;
+     } else{
+     return 0;
+     }
+});
+console.log(product);
+
+/// 5) code
+
+let price=[23,45,87,12,43];
+console.log(price.sort(function(a,b){
+  if(a>b){
+  return 1;
+  }
+  if(a<b){
+  return -1;
+  } else{
+  return 0;
+  }
+  
+}));
+
+///  6) code
+
+let employees=[
+          {eNo:1,salary:7000},
+          {eNo:2,salary:3000},
+          {eNo:3,salary:4000},
+          {eNo:4,salary:6000},
+];
+employees.sort(function(a,b){
+  if(a.salary>b.salary){
+    return 1;
+  }
+  if(a.salary<b.salary){
+    return -1;
+  } else{
+    return 0;
+  }
+});
+ console.log(employees);
