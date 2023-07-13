@@ -1,0 +1,16 @@
+//Remove duplicate values from Array
+
+let arr=[1,2,3,4,3,4,5];
+let uArr=[...new Set(arr)];
+console.log(uArr);
+
+//Remove the null, undefined, 0, NaN and '' values from array
+
+let arr=[false,"Hi",0,undefined,'',70,30];
+let newArr=arr.filter((v,i)=>{
+   return v;
+});
+console.log(newArr);  
+( To Remove elements like false, NaN,0, etc. from an array, you can use the truthy & false technique.)
+
+
